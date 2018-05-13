@@ -17,15 +17,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-adsense/apis.md
 specificationVersion: "0.14"
 apis:
-- name: Google Adsense API Get Ad Clients
-  description: List all host ad clients in this AdSense account.
+- name: Google Adsense API Get Ad Client
+  description: Get information about one of the ad clients in the Host AdSense account.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png
   humanURL: https://developers.google.com/adsense/
   baseURL: https://{host}//
   tags: Clients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-adsense/adclients-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-adsense/adclients-adclientid-get.md
 x-common:
 - type: x-blog
   url: http://googleadsdeveloper.blogspot.com/search/label/adsense_api
