@@ -38,15 +38,15 @@ modified: "2018-05-13"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/apis.md
 specificationVersion: "0.14"
 apis:
-- name: AWS CloudHSM API List Luna Clients
-  description: Lists all of the clients.
+- name: AWS CloudHSM API Modify Luna Client
+  description: Modifies the certificate used by the client.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
   baseURL: http:://{host}//
   tags: Clients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/action-listlunaclients-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/action-modifylunaclient-get.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
