@@ -1,5 +1,6 @@
 ---
 name: SendGrid
+x-slug: sendgrid
 description: SendGrid is a cloud-based email service that delivers email on behalf
   of companies to increase deliverability and improve customer communications integration
   with new or existing email systems is done via SMTP or through a REST API, providing
@@ -7,23 +8,31 @@ description: SendGrid is a cloud-based email service that delivers email on beha
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
 x-kinRank: "9"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Stack
-- Plans
-- Partners
-- Messaging
-- Messaging
-- Imports
-- Email
-- Email
-- API LIfeycle
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Clients
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/apis.md
 specificationVersion: "0.14"
 apis:
+- name: SendGrid Get Clients Stats
+  x-api-slug: sendgrid
+  description: |-
+    **This endpoint allows you to retrieve your email statistics segmented by client type.**
+
+    **We only store up to 7 days of email activity in our database.** By default, 500 items will be returned per request via the Advanced Stats API endpoints.
+
+    Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+  humanURL: https://sendgrid.com/
+  baseURL: https://api.sendgrid.com//v3//clients/stats
+  tags: Email,Clients, Stats
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/clientsstats-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/clientsstats-get-openapi.md
 - name: SendGrid Get Clients Client Type Stats
+  x-api-slug: sendgrid
   description: |-
     **This endpoint allows you to retrieve your email statistics segmented by a specific client type.**
 
@@ -38,13 +47,26 @@ apis:
     Advanced Stats provide a more in-depth view of your email statistics and the actions taken by your recipients. You can segment these statistics by geographic location, device type, client type, browser, and mailbox provider. For more information about statistics, please see our [User Guide](https://sendgrid.com/docs/User_Guide/Statistics/index.html).
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
   humanURL: https://sendgrid.com/
+  baseURL: https://api.sendgrid.com//v3//clients/{client_type}/stats
+  tags: Email,Clients, Client, Type, Stats
+  properties:
+  - type: x-postman-collection
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/clientsclient-typestats-get-postman.md
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/clientsclient-typestats-get-openapi.md
+- name: SendGrid
+  x-api-slug: sendgrid
+  description: SendGrids cloud-based email infrastructure relieves businesses of the
+    cost and complexity of maintaining custom email systems. SendGrid provides reliable
+    delivery, scalability and real-time analytics along with flexible APIs that make
+    custom integration a breeze.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/sendgrid-logo.png
+  humanURL: https://sendgrid.com/
   baseURL: https://api.sendgrid.com//v3
   tags: Clients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/clients-client-type-stats-get.md
-  - type: x-postman-collection
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/clients-client-type-stats-get-postman.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/openapi.md
 x-common:
 - type: x-net-library
   url: https://sendgrid.com/docs/Code_Examples/csharp.html

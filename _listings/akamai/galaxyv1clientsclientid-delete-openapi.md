@@ -1,0 +1,114 @@
+---
+swagger: "2.0"
+x-collection-name: Akamai
+x-complete: 0
+info:
+  title: Akamai API Remove a Client
+  description: Remove a Client
+  version: 1.0.0
+host: developer.akamai.com
+basePath: /
+schemes:
+- http
+produces:
+- application/json
+consumes:
+- application/json
+paths:
+  /galaxy/v1/clients:
+    get:
+      summary: List Clients
+      description: List Clients
+      operationId: galaxyv1clientsincludedeleteddebugself
+      x-api-path-slug: galaxyv1clients-get
+      parameters:
+      - in: query
+        name: debug
+        description: The flag to include debug members in the response JSON
+        type: string
+      - in: query
+        name: includeDeleted
+        description: The flag to include deleted customers
+        type: string
+      - in: query
+        name: self
+        description: The flag to get its own client information
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Galaxy
+      - Clients
+      - Includedeleted
+      - debug
+      - self
+    post:
+      summary: Add a Client
+      description: Add a Client
+      operationId: galaxyv1clients
+      x-api-path-slug: galaxyv1clients-post
+      parameters:
+      - in: query
+        name: clientId
+        description: Client ID of the device, maximum 50 characters
+        type: string
+      - in: query
+        name: debug
+        description: The flag to include debug members in the response JSON
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Galaxy
+      - Clients
+  /galaxy/v1/clients/{clientId}:
+    put:
+      summary: Modify a Client
+      description: Modify a Client
+      operationId: galaxyv1clientsclientid
+      x-api-path-slug: galaxyv1clientsclientid-put
+      parameters:
+      - in: query
+        name: clientId
+        description: Client ID of the device, maximum 50 characters
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Galaxy
+      - Clients
+      - Client
+    delete:
+      summary: Remove a Client
+      description: Remove a Client
+      operationId: galaxyv1clientsclientid
+      x-api-path-slug: galaxyv1clientsclientid-delete
+      parameters:
+      - in: query
+        name: clientId
+        description: Client ID of the device, maximum 50 characters
+        type: string
+      responses:
+        200:
+          description: OK
+      tags:
+      - Galaxy
+      - Clients
+      - Client
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
+---

@@ -1,20 +1,21 @@
 ---
 name: AWS CloudHSM
+x-slug: aws-cloudhsm
 description: The AWS CloudHSM service helps you meet corporate, contractual and regulatory
   compliance requirements for data security by using dedicated Hardware Security Module
   (HSM) appliances within the AWS cloud. With CloudHSM, you control the encryption
-  keys and cryptographic operations performed by the HSM.nAWS and AWS Marketplace
-  partners offer a variety of solutions for protecting sensitive data within the AWS
-  platform, but for applications and data subject to rigorous contractual or regulatory
-  requirements for managing cryptographic keys, additional protection is sometimes
-  necessary. Until now, your only option was to store the sensitive data (or the encryption
-  keys protecting the sensitive data) in your on-premises datacenters. Unfortunately,
-  this either prevented you from migrating these applications to the cloud or significantly
-  slowed their performance. The AWS CloudHSM service allows you to protect your encryption
+  keys and cryptographic operations performed by the HSM.AWS and AWS Marketplace partners
+  offer a variety of solutions for protecting sensitive data within the AWS platform,
+  but for applications and data subject to rigorous contractual or regulatory requirements
+  for managing cryptographic keys, additional protection is sometimes necessary. Until
+  now, your only option was to store the sensitive data (or the encryption keys protecting
+  the sensitive data) in your on-premises datacenters. Unfortunately, this either
+  prevented you from migrating these applications to the cloud or significantly slowed
+  their performance. The AWS CloudHSM service allows you to protect your encryption
   keys within HSMs designed and validated to government standards for secure key management.
   You can securely generate, store, and manage the cryptographic keys used for data
   encryption such that they are accessible only by you. AWS CloudHSM helps you comply
-  with strict key management requirements without sacrificing application performance.nThe
+  with strict key management requirements without sacrificing application performance.The
   AWS CloudHSM service works with Amazon Virtual Private Cloud (VPC). CloudHSM instances
   are provisioned inside your VPC with an IP address that you specify, providing simple
   and private network connectivity to your Amazon Elastic Compute Cloud (EC2) instances.
@@ -26,27 +27,95 @@ description: The AWS CloudHSM service helps you meet corporate, contractual and 
 image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
 x-kinRank: "10"
 x-alexaRank: ""
-tags:
-- Stack Network
-- Regulations
-- Management
-- Encryption
-- Contracts
-- Amazon Web Services
-created: "2018-05-13"
-modified: "2018-05-13"
+tags: Clients
+created: "2018-05-20"
+modified: "2018-05-20"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/apis.md
 specificationVersion: "0.14"
 apis:
+- name: AWS CloudHSM API Create Luna Client
+  x-api-slug: aws-cloudhsm-api
+  description: Creates an HSM client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: ://///?Action=CreateLunaClient
+  tags: Luna Clients
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/actioncreatelunaclient-get-openapi.md
+- name: AWS CloudHSM API Delete Luna Client
+  x-api-slug: aws-cloudhsm-api
+  description: Deletes a client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: ://///?Action=DeleteLunaClient
+  tags: Luna Clients
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/actiondeletelunaclient-get-openapi.md
+- name: AWS CloudHSM API Describe Luna Client
+  x-api-slug: aws-cloudhsm-api
+  description: Retrieves information about an HSM client.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: ://///?Action=DescribeLunaClient
+  tags: Luna Clients
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/actiondescribelunaclient-get-openapi.md
+- name: AWS CloudHSM API List Luna Clients
+  x-api-slug: aws-cloudhsm-api
+  description: Lists all of the clients.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: ://///?Action=ListLunaClients
+  tags: Luna Clients
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/actionlistlunaclients-get-openapi.md
 - name: AWS CloudHSM API Modify Luna Client
+  x-api-slug: aws-cloudhsm-api
   description: Modifies the certificate used by the client.
   image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
   humanURL: https://aws.amazon.com/cloudhsm/
-  baseURL: http:://{host}//
+  baseURL: ://///?Action=ModifyLunaClient
+  tags: Luna Clients
+  properties:
+  - type: x-openapi-spec
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/actionmodifylunaclient-get-openapi.md
+- name: AWS CloudHSM API
+  x-api-slug: aws-cloudhsm-api
+  description: The AWS CloudHSM service helps you meet corporate, contractual and
+    regulatory compliance requirements for data security by using dedicated Hardware
+    Security Module (HSM) appliances within the AWS cloud. With CloudHSM, you control
+    the encryption keys and cryptographic operations performed by the HSM.AWS and
+    AWS Marketplace partners offer a variety of solutions for protecting sensitive
+    data within the AWS platform, but for applications and data subject to rigorous
+    contractual or regulatory requirements for managing cryptographic keys, additional
+    protection is sometimes necessary. Until now, your only option was to store the
+    sensitive data (or the encryption keys protecting the sensitive data) in your
+    on-premises datacenters. Unfortunately, this either prevented you from migrating
+    these applications to the cloud or significantly slowed their performance. The
+    AWS CloudHSM service allows you to protect your encryption keys within HSMs designed
+    and validated to government standards for secure key management. You can securely
+    generate, store, and manage the cryptographic keys used for data encryption such
+    that they are accessible only by you. AWS CloudHSM helps you comply with strict
+    key management requirements without sacrificing application performance.The AWS
+    CloudHSM service works with Amazon Virtual Private Cloud (VPC). CloudHSM instances
+    are provisioned inside your VPC with an IP address that you specify, providing
+    simple and private network connectivity to your Amazon Elastic Compute Cloud (EC2)
+    instances. Placing CloudHSM instances near your EC2 instances decreases network
+    latency, which can improve application performance. AWS provides dedicated and
+    exclusive (single tenant) access to CloudHSM instances, isolated from other AWS
+    customers. Available in multiple Regions and Availability Zones (AZs), AWS CloudHSM
+    allows you to add secure and durable key storage to your applications.
+  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png
+  humanURL: https://aws.amazon.com/cloudhsm/
+  baseURL: :///
   tags: Clients
   properties:
   - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/action-modifylunaclient-get.md
+    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/openapi.md
 x-common:
 - type: x-documentation
   url: http://docs.aws.amazon.com/cloudhsm/latest/dg/
