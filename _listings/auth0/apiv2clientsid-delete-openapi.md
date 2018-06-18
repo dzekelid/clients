@@ -1,10 +1,11 @@
 ---
 swagger: "2.0"
 x-collection-name: Auth0
-x-complete: 1
+x-complete: 0
 info:
-  title: Auth0
+  title: Auth0 API Delete Clients
   version: 1.0.0
+  description: Delete clients.
 host: login.auth0.com
 basePath: /clients
 schemes:
@@ -64,44 +65,17 @@ paths:
           description: OK
       tags:
       - Clients
-    get:
-      summary: Get Clients
-      description: Get clients.
-      operationId: get_clients_by_id
-      x-api-path-slug: apiv2clientsid-get
-      parameters:
-      - in: query
-        name: exclude_fields
-        description: true if the fields specified are to be excluded from the result,
-          false otherwise
-      - in: query
-        name: fields
-        description: A comma separated list of fields to include or exclude (depending
-          on exclude_fields) from the result
-      - in: path
-        name: id
-        description: The client_id of the client to retrieve
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clients
-    patch:
-      summary: Patch Clients
-      description: Patch clients.
-      operationId: patch_clients_by_id
-      x-api-path-slug: apiv2clientsid-patch
-      parameters:
-      - in: body
-        name: body
-        schema:
-          $ref: '#/definitions/holder'
-      - in: path
-        name: id
-        description: The client_id of the client to retrieve
-      responses:
-        200:
-          description: OK
-      tags:
-      - Clients
+x-streamrank:
+  polling_total_time_average: 0
+  polling_size_download_average: 0
+  streaming_total_time_average: 0
+  streaming_size_download_average: 0
+  change_yes: 0
+  change_no: 0
+  time_percentage: 0
+  size_percentage: 0
+  change_percentage: 0
+  last_run: ""
+  days_run: 0
+  minute_run: 0
 ---
