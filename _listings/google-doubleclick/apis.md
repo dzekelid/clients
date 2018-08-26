@@ -9,35 +9,16 @@ image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/l
 x-kinRank: "9"
 x-alexaRank: "0"
 tags: Clients
-created: "2018-06-25"
-modified: "2018-06-25"
+created: "2018-08-25"
+modified: "2018-08-25"
 url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-doubleclick/apis.md
 specificationVersion: "0.14"
-apis:
-- name: Google Doubleclick API Get Ad Clients
-  x-api-slug: google-doubleclick-api
-  description: List all ad clients in this Ad Exchange account.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https://///accounts/{accountId}/adclients
-  tags: Advertising,Clients
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-doubleclick/accountsaccountidadclients-get-openapi.md
-- name: Google Doubleclick API
-  x-api-slug: google-doubleclick-api
-  description: The Ad Exchange Buyer REST API allows your Real-Time Bidding application
-    to access and update account information and to submit creatives. The API also
-    allows an application (whether it does static bidding or real-time bidding) to
-    discover direct deals that sellers make available.
-  image: http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png
-  humanURL: https://www.doubleclickbygoogle.com/
-  baseURL: https:///
-  tags: Clients
-  properties:
-  - type: x-openapi-spec
-    url: https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-doubleclick/openapi.md
+apis: []
 x-common:
+- type: x-api-gallery
+  url: http://google.dataflow.api.gallery.streamdata.io
+- type: x-api-stack
+  url: http://google.doubleclick.stack.network
 - type: x-authentication
   url: https://developers.google.com/ad-exchange/buyer-rest/auth-guide
 - type: x-blog
