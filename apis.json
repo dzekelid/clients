@@ -1,0 +1,413 @@
+{
+	"name": "Streadata.io API Gallery - Clients",
+	"description": "This is a repository of clients APIs, self-contained as a Github repository, with HTML and YAML representations of the APIs and their surrounding operations.",
+	"image": "http://template.streamdata.gallery/assets/clients.png",
+	"created": "2018-02-24",
+	"modified": "2018-08-27",
+	"url": "http://clients.streamdata.gallery/apis.json",
+	"specificationVersion": "0.14",
+	"apis": [
+		{
+			"name": "3scale",
+			"x-api-slug": "3scale",
+			"description": "3scales API Management platform gives you the tools you need to take control of your API. Trusted by more customers than any other vendor.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/4-3scale.jpg",
+			"humanURL": "http://3scale.net",
+			"baseURL": "https://su1.3scale.net//",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/3scale/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "SendGrid",
+			"x-api-slug": "sendgrid",
+			"description": "Delivering your transactional and marketing emails through the worlds largest cloud-based email delivery platform. Send with confidence.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/142-sendgrid.jpg",
+			"humanURL": "http://sendgrid.com",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Swagger",
+			"x-api-slug": "swagger",
+			"description": "Swagger aides in development across the entire API lifecycle, from design and documentation, to test and deployment. Try it today!",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/1684-swagger.jpg",
+			"humanURL": "http://swagger.io/",
+			"baseURL": "https://generator.swagger.io//api",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/swagger/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "StopLight",
+			"x-api-slug": "stoplight",
+			"description": "StopLight, providing engineering teams with the best way to document, test, and build web APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/2951-stoplight.jpg",
+			"humanURL": "http://stoplight.io/",
+			"baseURL": ":///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/stoplight/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Postman",
+			"x-api-slug": "postman",
+			"description": "Postman is the only complete API development environment, used by nearly five million developers and more than 100,000 companies worldwide. Postman is an elegant, flexible tool used to build connected software via APIs &mdash; quickly, easily and accurately.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/3776-postman.jpg",
+			"humanURL": "https://www.getpostman.com",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/postman/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Auth0",
+			"x-api-slug": "auth0",
+			"description": "The new way to solve Identity",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11272-auth0.jpg",
+			"humanURL": "https://auth0.com/",
+			"baseURL": "https://login.auth0.com//users",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/auth0/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Insomnia Rest Client",
+			"x-api-slug": "insomnia-rest-client",
+			"description": "Never use CURL again. Store, organize, and execute API requests in a beautiful and elegant interface. Insomnia lets you manage requests in a simple and elegant way, by providing everything you need in an organized interface.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/11760-insomnia-rest-client.jpg",
+			"humanURL": "http://insomnia.rest/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/insomnia-rest-client/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RESTFiddle",
+			"x-api-slug": "restfiddle",
+			"description": "RESTFiddle is an Enterprise-grade API Management Platform for Teams. It helps you design, develop, test and release APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/restfiddle-logo.png",
+			"humanURL": "http://www.restfiddle.com/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/restfiddle/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "PAW",
+			"x-api-slug": "paw",
+			"description": "Paw is a full-featured and beautifully designed Mac app that makes interaction with REST services delightful. Either you are an API maker or consumer, Paw helps you build HTTP requests, inspect the servers response and even generate client code.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/paw-http-client.png",
+			"humanURL": "http://luckymarmot.com/paw",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/paw/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "IDX Broker",
+			"x-api-slug": "idx-broker",
+			"description": "Based in Eugene, OR, IDX, LLC is nationally known as a leading provider of real estate search applications. IDX, LLC actively manages more than $2 trillion worth of active listing data from more than 600 individual Multiple Listings Services (MLS). IDX, LLC provides integrated IDX software, customizable listing search utilities and lead management tools for real estate based websites (IDX Broker).",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/idx-broker.png",
+			"humanURL": "http://www.idxbroker.com",
+			"baseURL": "https://example.com//",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/idx-broker/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Apigee API Studio",
+			"x-api-slug": "apigee-api-studio",
+			"description": "Apigee launched their API Studio out of their earlier Apigee-127 product, their work on the Swagger platform and editor, and their BaaS offering. The new studio opens up the ability for developers to design, mock, test and share via their online open source based platform.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/api-studio-logo.png",
+			"humanURL": "http://apistudio.io/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/apigee-api-studio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "RepreZen API Studio",
+			"x-api-slug": "reprezen-api-studio",
+			"description": "Powerful IDE for API-first design, documentation & development w/ Swagger-OpenAPI 2.0, 3.0 & RAPID-ML description languages. Multi-file editing & custom codegen",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18942-reprezen-api-studio.jpg",
+			"humanURL": "http://www.reprezen.com/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/reprezen-api-studio/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Restlet DHC",
+			"x-api-slug": "restlet-dhc",
+			"description": "Restlet is a web API platform vendor, pioneer of RESTful web APIs.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/18987-restlet-dhc.jpg",
+			"humanURL": "https://restlet.com/products/dhc/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/restlet-dhc/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS CloudHSM",
+			"x-api-slug": "aws-cloudhsm",
+			"description": "The AWS CloudHSM service helps you meet corporate, contractual and regulatory compliance requirements for data security by using dedicated Hardware Security Module (HSM) appliances within the AWS cloud. With CloudHSM, you control the encryption keys and cryptographic operations performed by the HSM.AWS and AWS Marketplace partners offer a variety of solutions for protecting sensitive data within the AWS platform, but for applications and data subject to rigorous contractual or regulatory requirements for managing cryptographic keys, additional protection is sometimes necessary. Until now, your only option was to store the sensitive data (or the encryption keys protecting the sensitive data) in your on-premises datacenters. Unfortunately, this either prevented you from migrating these applications to the cloud or significantly slowed their performance. The AWS CloudHSM service allows you to protect your encryption keys within HSMs designed and validated to government standards for secure key management. You can securely generate, store, and manage the cryptographic keys used for data encryption such that they are accessible only by you. AWS CloudHSM helps you comply with strict key management requirements without sacrificing application performance.The AWS CloudHSM service works with Amazon Virtual Private Cloud (VPC). CloudHSM instances are provisioned inside your VPC with an IP address that you specify, providing simple and private network connectivity to your Amazon Elastic Compute Cloud (EC2) instances. Placing CloudHSM instances near your EC2 instances decreases network latency, which can improve application performance. AWS provides dedicated and exclusive (single tenant) access to CloudHSM instances, isolated from other AWS customers. Available in multiple Regions and Availability Zones (AZs), AWS CloudHSM allows you to add secure and durable key storage to your applications.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/Security-Identity_AWSCloudHSM.png",
+			"humanURL": "https://aws.amazon.com/cloudhsm/",
+			"baseURL": ":///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "AWS Cognito",
+			"x-api-slug": "aws-cognito",
+			"description": "Amazon Cognito lets you easily add user sign-up and sign-in to your mobile and web apps. With Amazon Cognito, you also have the options to authenticate users through social identity providers such as Facebook, Twitter, or Amazon, with SAML identity solutions, or by using your own identity system. In addition, Amazon Cognito enables you to save data locally on users devices, allowing your applications to work even when the devices are offline. You can then synchronize data across users devices so that their app experience remains consistent regardless of the device they use. With Amazon Cognito, you can focus on creating great app experiences instead of worrying about building, securing, and scaling a solution to handle user management, authentication, and sync across devices.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/aws-cognito.png",
+			"humanURL": "https://aws.amazon.com/cognito/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cognito/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Doubleclick",
+			"x-api-slug": "google-doubleclick",
+			"description": "The Ad Exchange Buyer REST API allows your Real-Time Bidding application to access and update account information and to submit creatives. The API also allows an application (whether it does static bidding or real-time bidding) to discover direct deals that sellers make available.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-double-click.png",
+			"humanURL": "https://www.doubleclickbygoogle.com/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-doubleclick/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Google Adsense",
+			"x-api-slug": "google-adsense",
+			"description": "AdSense is a free, simple way to make money online by placing ads on your website. Ads are reviewed to ensure they???re high quality and relevant to your content or audience, even when viewed on smartphones and tablets. The result? You can make more money online.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/google-adsense.png",
+			"humanURL": "https://developers.google.com/adsense/",
+			"baseURL": "https:///",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-adsense/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Lykke",
+			"x-api-slug": "lykke",
+			"description": "Lykke is a movement to build one global marketplace that is a level playing field where everyone has access.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/26564-lykke.jpg",
+			"humanURL": "https://lykke.com",
+			"baseURL": "https:////",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/lykke/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Kaltura",
+			"x-api-slug": "kaltura",
+			"description": "A recognized leader in the OTT TV (Over the Top TV), OVP (Online Video Platform), EdVP (Education Video Platform) and EVP (Enterprise Video Platform) markets, Kaltura has emerged as the fastest growing video platform, and as the one with the widest use-case and appeal. Kaltura is deployed globally in thousands of enterprises, media companies, service providers and educational institutions and engages hundreds of millions of viewers at home, in work, and at school. The company is committed to its core values of openness, flexibility, and collaboration, and is the initiator and backer of the worlds leading open-source video-management project, which is home to more than 100,000 community members.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28437-kaltura-vpaa-s.jpg",
+			"humanURL": "http://kaltura.com",
+			"baseURL": "https://www.kaltura.com//api_v3",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/kaltura/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Plentymarkets",
+			"x-api-slug": "plentymarkets",
+			"description": "plentymarkets is an all-in-one e-commerce ERP solution, which combines a comprehensive stock management system with a versatile shop system and effortless multichannel sales. Thanks to comprehensive functions and interfaces that include all steps of the e-commerce value chain, you can use the cloud based software to completely automate all of your e-business processes as well as your companys own individual processes.",
+			"image": "http://kinlane-productions.s3.amazonaws.com/api-evangelist-site/company/logos/plentymarkets.png",
+			"humanURL": "http://www.plentymarkets.co.uk",
+			"baseURL": "https://example.com//",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/plentymarkets/openapi.md"
+				}
+			]
+		},
+		{
+			"name": "Dezrez",
+			"x-api-slug": "dezrez",
+			"description": "Cloud based estate agent software , sales & letting agent software, estate agent website design and property management software - Dezrez  Services",
+			"image": "http://kinlane-productions.s3.amazonaws.com/screen-capture-api/28888-www-dezrez-com.jpg",
+			"humanURL": "https://www.dezrez.com",
+			"baseURL": "https://api.dezrez.com//",
+			"tags": "Clients",
+			"properties": [
+				{
+					"type": "x-openapi-spec",
+					"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/dezrez/openapi.md"
+				}
+			]
+		}
+	],
+	"tags": "Clients",
+	"include": [
+		{
+			"name": "3scale",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/3scale/apis.yaml"
+		},
+		{
+			"name": "SendGrid",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/sendgrid/apis.yaml"
+		},
+		{
+			"name": "Swagger",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/swagger/apis.yaml"
+		},
+		{
+			"name": "StopLight",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/stoplight/apis.yaml"
+		},
+		{
+			"name": "Postman",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/postman/apis.yaml"
+		},
+		{
+			"name": "Auth0",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/auth0/apis.yaml"
+		},
+		{
+			"name": "Insomnia Rest Client",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/insomnia-rest-client/apis.yaml"
+		},
+		{
+			"name": "RESTFiddle",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/restfiddle/apis.yaml"
+		},
+		{
+			"name": "PAW",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/paw/apis.yaml"
+		},
+		{
+			"name": "IDX Broker",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/idx-broker/apis.yaml"
+		},
+		{
+			"name": "Apigee API Studio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/apigee-api-studio/apis.yaml"
+		},
+		{
+			"name": "RepreZen API Studio",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/reprezen-api-studio/apis.yaml"
+		},
+		{
+			"name": "Restlet DHC",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/restlet-dhc/apis.yaml"
+		},
+		{
+			"name": "AWS CloudHSM",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cloudhsm/apis.yaml"
+		},
+		{
+			"name": "AWS Cognito",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/aws-cognito/apis.yaml"
+		},
+		{
+			"name": "Google Doubleclick",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-doubleclick/apis.yaml"
+		},
+		{
+			"name": "Google Adsense",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/google-adsense/apis.yaml"
+		},
+		{
+			"name": "Lykke",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/lykke/apis.yaml"
+		},
+		{
+			"name": "Kaltura",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/kaltura/apis.yaml"
+		},
+		{
+			"name": "Plentymarkets",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/plentymarkets/apis.yaml"
+		},
+		{
+			"name": "Dezrez",
+			"url": "https://raw.githubusercontent.com/streamdata-gallery-topics/clients/master/_listings/dezrez/apis.yaml"
+		}
+	]
+}
